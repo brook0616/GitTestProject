@@ -1,0 +1,17 @@
+---
+title: "simpleFunctio2"
+author: "Brook Andreas"
+date: "June 7, 2018"
+output: html_document
+---
+
+
+  ## My simple function example 
+  
+```{r }
+knitr::opts_chunk$set(echo = TRUE)
+se<-function(x){
+  sd(x)/length(x)
+}
+```
+
